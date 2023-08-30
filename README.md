@@ -1,6 +1,6 @@
-# Stream-Top
+# Stream Core
 
-Stream-Top is a learning project primarily focused on understanding and utilizing Apache Kafka through a real-world mini
+Stream Core is a learning project primarily focused on understanding and utilizing Apache Kafka through a real-world mini
 project. The idea for this project was inspired by educative.io's projects. It serves as a real-time system resource
 monitoring tool that uses Apache Kafka for data streaming, with the current capability to monitor CPU usage.
 
@@ -57,7 +57,7 @@ python producer.py
 
 ## Usage
 
-Stream-Top can be used to monitor the CPU usage of each core in real-time. The producer can be run on any machine to
+Stream Core can be used to monitor the CPU usage of each core in real-time. The producer can be run on any machine to
 send CPU usage data to the Kafka topic, and the consumer notebook can be run anywhere with access to the Kafka topic to
 visualize the data.
 
